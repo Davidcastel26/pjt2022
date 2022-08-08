@@ -21,8 +21,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
         <div>
           Sidebar 
         </div>  
+        <div>
+          <Component {...pageProps} />
+        </div>
       </div>
-      <Component {...pageProps} />
     </div>
   )
 }
